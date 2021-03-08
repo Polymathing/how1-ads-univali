@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1615165049 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<string>
+	"conversores.h"
+
+1615165018 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<string>
+	"conversores.h"
+
+1615165029 c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.h
+
