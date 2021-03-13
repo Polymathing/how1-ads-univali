@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int calcularDecimal(string binario){
+int binarioToDecimal(string binario){
     int decimal;
     reverse(binario.begin(), binario.end());
 
@@ -17,8 +17,7 @@ int calcularDecimal(string binario){
     return decimal;
 }
 
-
-string calcularBinario(int decimal){
+string decimalToBinario(int decimal){
     int resto;
     string binario;
 
@@ -29,4 +28,38 @@ string calcularBinario(int decimal){
     }
     reverse(binario.begin(), binario.end());
     return binario;
+}
+
+
+int hexaToDecimal(string hexa){
+    int bit;
+    int decimal;
+    reverse(hexa.begin(), hexa.end());
+
+    for (unsigned int i = 0; i < hexa.length(); i++) {
+        bit = (isdigit(hexa[i])) ? hexa[i] - 48 : hexa[i] - 55;
+        decimal += bit * pow(16, i);
+    }
+    return decimal;
+}
+
+string decimalToHexa(int decimal) {
+    int resto;
+    string hexa;
+
+    while (decimal > 16) {
+        resto = decimal % 16;
+
+        if (resto > 9) {
+            hexa += char(resto + 55);
+        } else {
+            to_string(resto);
+        }
+
+        decimal /= 16;
+    }
+    if (decimal > 1) { hexa += to_string(decimal); }
+
+    reverse(hexa.begin(), hexa.end());
+    return hexa;
 }

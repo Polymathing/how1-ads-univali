@@ -3,7 +3,9 @@
 
 using namespace std;
 
-int calcularDecimal(string binario);
-string calcularBinario(int decimal);
+int binarioToDecimal(string binario);
+string decimalToBinario(int decimal);
+int hexaToDecimal(string hexa);
+string decimalToHexa(int decimal);
 
 #endif // CONVERSORES_H_INCLUDED

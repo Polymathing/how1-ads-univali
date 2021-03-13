@@ -7,7 +7,6 @@ using namespace std;
 
 int main()
 {
-    cout << calcularDecimal("11000101") << endl;
-    cout << calcularBinario(222) << endl;
+    cout << decimalToHexa(2046) << endl;
     return 0;
 }
