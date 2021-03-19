@@ -1,15 +1,22 @@
 # depslib dependency file v1.0
-1615656009 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\main.cpp
+1615776546 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<string>
+	"conversores.h"
+	"menu.h"
+
+1615656776 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.cpp
 	<iostream>
 	<bits/stdc++.h>
 	<string>
 	"conversores.h"
 
-1615655989 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.cpp
+1615776503 c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.h
+
+1615776971 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\menu.cpp
 	<iostream>
-	<bits/stdc++.h>
-	<string>
 	"conversores.h"
 
-1615655142 c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.h
+1615776562 c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\menu.h
 
