@@ -5,17 +5,83 @@ using namespace std;
 
 extern int firstAction;
 extern int nextAction;
+int option = 0;
 
-void chooseConversor(int action) {
+int chooseConversor(int action) {
+
+
   switch(action) {
     case 1:
-      cout << "1- Binario para Decimal\n2- Decimal para Binario" << endl;
+      if (option == 0) {
+        cout << "1- Binario para Decimal\n2- Decimal para Binario" << endl;
+        cin >> option;
+      }
+      switch(option) {
+        case 1:
+            {
+            string binario;
+            cout << "Insira o binário: " << endl;
+            cin >> binario;
+            cout << binarioToDecimal(binario) << endl;
+            break;
+            }
+        case 2:
+            {
+            int decimal;
+            cout << "Insira o decimal: " << endl;
+            cin >> decimal;
+            cout << decimalToBinario(decimal) << endl;
+            break;
+            }
+      }
       break;
     case 2:
-      cout << "chamando funcao octal" << endl;
+      if (option == 0) {
+        cout << "1- Octal para Decimal\n2- Decimal para Octal" << endl;
+        cin >> option;
+      }
+      switch(option) {
+        case 1:
+            {
+            string octal;
+            cout << "Insira o octal: " << endl;
+            cin >> octal;
+            cout << octalToDecimal(octal) << endl;
+            break;
+            }
+        case 2:
+            {
+            int decimal;
+            cout << "Insira o decimal: " << endl;
+            cin >> decimal;
+            cout << decimalToOctal(decimal) << endl;
+            break;
+            }
+      }
       break;
     case 3:
-      cout << "chamando funcao hexa" << endl;
+      if (option == 0) {
+        cout << "1- Hexa para Decimal\n2- Decimal para Hexa" << endl;
+        cin >> option;
+      }
+      switch(option) {
+        case 1:
+            {
+            string hexa;
+            cout << "Insira o hexa: " << endl;
+            cin >> hexa;
+            cout << hexaToDecimal(hexa) << endl;
+            break;
+            }
+        case 2:
+            {
+            int decimal;
+            cout << "Insira o decimal: " << endl;
+            cin >> decimal;
+            cout << decimalToHexa(decimal) << endl;
+            break;
+            }
+      }
       break;
     case 4:
       cout << "encerrando..." << endl;
@@ -32,6 +98,9 @@ void checkNextAction() {
     chooseConversor(firstAction);
     checkNextAction();
     }
+  else {
+    option = 0;
+  }
   }
 
 

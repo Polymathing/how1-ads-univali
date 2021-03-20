@@ -63,3 +63,12 @@ string decimalToHexa(int decimal) {
     reverse(hexa.begin(), hexa.end());
     return hexa;
 }
+
+
+int octalToDecimal(string octal) {
+    return 0;
+}
+
+string decimalToOctal(int decimal) {
+    return "octal";
+}

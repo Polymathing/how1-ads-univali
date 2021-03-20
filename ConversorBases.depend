@@ -6,15 +6,15 @@
 	"conversores.h"
 	"menu.h"
 
-1615656776 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.cpp
+1616251251 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.cpp
 	<iostream>
 	<bits/stdc++.h>
 	<string>
 	"conversores.h"
 
-1615776503 c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.h
+1616251279 c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\conversores.h
 
-1615776971 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\menu.cpp
+1616251459 source:c:\users\wieth\documents\ads 2021\hands-on-work1\conversorbases\menu.cpp
 	<iostream>
 	"conversores.h"
 
